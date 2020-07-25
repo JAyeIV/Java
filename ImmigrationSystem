@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class ImmigrationSystem {
+
+	public static void main(String[] args) {
+   
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("What is your name?");
+	String name = scanner.nextLine();
+	String name_info = "Name: " + name;
+	System.out.println("Name registered: " + name);
+	
+	System.out.println("What country do you come from?");
+	String country = scanner.nextLine();
+	String location_info = "Nationality: " + country;
+	System.out.println("Location registered: " + country);
+	
+	System.out.println("How old are you?");
+	String age = scanner.nextLine();
+	String age_info = ("Age: " + age + " years old");
+	System.out.println("Age registered: " + age + " years old");
+	
+	System.out.println(name_info);
+	System.out.println(location_info);
+	System.out.println(age_info);
+}
+
+}
